@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+/* Toggle Styles */
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #10b981; 
+}
+.toggle-checkbox:checked + .toggle-label .toggle-dot {
+  transform: translateX(1.5rem);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
