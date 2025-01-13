@@ -8,7 +8,7 @@ export default function SubHeader() {
       <Sidebar />
       <div className="flex-1">
         {/*SubHeader */}
-        <div className="flex items-center space-x-4 px-4 py-2 bg-gray-50 border-b border-gray-200">
+        <div className="flex items-center space-x-6 px-4 py-6 bg-gray-50 border-b border-gray-200">
           <div className="flex items-center ">
             {/* Search Bar */}
             <div className="relative ">
@@ -112,7 +112,7 @@ export default function SubHeader() {
                 Sort
               </button>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center pr-4 space-x-8">
               <button className="bg-gray-900 text-white flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium">
                 <svg
                   width="16"

@@ -3,7 +3,7 @@ import React from "react";
 export default function Sidebar() {
   return (
     <div className="w-16 bg-gray-50 border-r border-gray-200 flex flex-col items-center justify-between py-4 pb-16 space-y-8">
-      <div className="flex flex-col items-center space-y-4">
+      <div className="flex flex-col items-center space-y-6">
         {/* Grid Icon */}
         <button className="text-gray-500 hover:text-black">
           <svg
@@ -69,7 +69,7 @@ export default function Sidebar() {
         </button>
       </div>
 
-      <div className="flex flex-col items-center space-y-4">
+      <div className="flex flex-col items-center space-y-6">
         {/* Card Icon */}
         <button className="text-gray-500 hover:text-black">
           <svg
