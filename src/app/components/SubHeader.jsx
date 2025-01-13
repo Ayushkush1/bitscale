@@ -11,11 +11,11 @@ export default function SubHeader() {
         <div className="flex items-center space-x-6 px-4 py-6 bg-gray-50 border-b border-gray-200">
           <div className="flex items-center ">
             {/* Search Bar */}
-            <div className="relative">
+            <div className="relative ">
               <input
                 type="text"
                 placeholder="Search"
-                className="border border-gray-300 rounded-md lg:px-10 lg:py-2 pl-10 text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                className="border border-gray-300 rounded-md lg:px-16 lg:py-2 pl-10 text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />
               <div className="absolute left-3 top-2.5 text-gray-400">
                 <svg
